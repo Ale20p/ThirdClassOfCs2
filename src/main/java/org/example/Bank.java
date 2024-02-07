@@ -14,7 +14,7 @@ public class Bank {
         double amountToWith = console.nextDouble();
         if (amountToWith > salary) {
             System.out.println("Cannot withdraw an amount that exceeds your total amount.");
-        } 
+        }
         salary = salary - amountToWith;
     }
     public void deposit() {
